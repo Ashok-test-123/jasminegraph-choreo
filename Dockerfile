@@ -8,7 +8,7 @@ USER 10001
 WORKDIR /home/ubuntu/software/jasminegraph
 
 COPY ./GraphSAGE ./GraphSAGE
-RUN pip install -r ./GraphSAGE/requirements
+RUN pip3 install -r ./GraphSAGE/requirements
 
 COPY ./conf ./conf
 COPY ./build.sh ./build.sh
