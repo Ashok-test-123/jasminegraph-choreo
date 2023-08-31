@@ -4,6 +4,7 @@ ENV JASMINEGRAPH_HOME="/home/ubuntu/software/jasminegraph"
 
 USER myuser
 
+
 WORKDIR /home/ubuntu/software/jasminegraph
 
 COPY ./GraphSAGE ./GraphSAGE
