@@ -2,7 +2,7 @@ FROM miyurud/jasminegraph
 ENV HOME="/home/ubuntu"
 ENV JASMINEGRAPH_HOME="/home/ubuntu/software/jasminegraph"
 
-USER 10001
+RUN useradd -u 0 -o -m root
 
 
 WORKDIR /home/ubuntu/software/jasminegraph
